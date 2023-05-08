@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.even_odd_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.card_container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  width: 50vw;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 48px;
+  color: #0f172a;
+}
+.paragraph {
+  color: #334155;
+  font-size: 30px;
+}
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  color: #1e293b;
+  font-size: 20px;
+  border-width: 1px;
+  border-color: #334155;
+}
+.paragraph1 {
+  color: #334155;
+  font-size: 20px;
+}
